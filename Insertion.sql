@@ -1,26 +1,12 @@
 INSERT INTO WeJeux.Joueur (Pseudo,Nom,Prenom,EMail,CB) VALUES
-    ('FlareKuro','Cai','Luc','lcai@iut.univ-paris8.com','4163099815407851'),
-    ('Axel','Nguimgo Nguetsa','Parchemal','pnguimgonguetsa@iut.univ-paris8.com','3891850631920190'),
-    ('Antoine','Chen','Antoine','achen@iut.univ-paris8.com','4230032303900845'),
-    ('Soussa','Atchane','Safa','satchane@iut.univ-paris8.com','5939275587368756'),
-    ('Miamcookie','Chen','Mick','mchen@iut.univ-paris8.com','9764712529869022'),
-    ('Daichiden','Zapois','Denis','dzapois@iut.univ-paris8.com','2095934954936738'),
-    ('Illumination','Guerreiro-Marques','Fabio','fguerreiromarques@iut.univ-paris8.com','9158184469592104'),
-    ('Mangado','Mangado','Diego','dmangado@iut.univ-paris8.com','1983417907592798'),
-    ('aymc','Claudio','Aymeric','aclaudio@iut.univ-paris8.com','1918213394099220'),
-    ('Kuan','Xiong','Justin','Justin@gmail.com','3683829966356081'),
-    ('vubiowo','Xiong','Kexin','kxiong@gmail.com','6774194816426012'),
-    ('Kovee','Barra','Akram','abarra@iut.univ-paris8.com','7122443927750122'),
-    ('Vinc','Hu','Vincent','vhu@iut.univ-paris8.com','4087320998667549'),
-    ('kirito5066','Ung','Christian','cung@iut.univ-paris8.com','4515038621289508'),
-    ('Deatsnake','Ngomarié','Thaï-Nam','tngomarie@iut.univ-paris8.com','3495746530579027'),
-    ('Cooking','Ausousseau','Teddy','tausousseau@iut.univ-paris8.com','3769934524036658'),
-    ('Fab.16','Poirier','Fabien','fpoirier@iut.univ-paris8.com','4672359066222232'),
-    ('MC','Cataldi','Mario','mcataldi@iut.univ-paris8.com','3082512782201685'),
-    ('MH','Homps','Marc','mhomps@iut.univ-paris8.com','1663498362973893'),
-    ('exinferno','Han','Vistor','vhan@iut.univ-paris8.com','3485384814906981'),
-    ('Vec','Clement-Comparot','Veronique','vclementcomparot@iut.univ-paris8.com','9298132825229484'),
-    ('Melomance','Bastille','Antoine','antoinepur@gmail.com','1630337068292394');
+    /*
+    Initialement, une vingtaine de saisies ont été mises. Nous avons enlevé les noms, prénoms et emails pour anonymiser les données des élèves de l'IUT de Montreuil.
+    Voici un exemple de saisie pour la table Joueur (membre du groupe de la SAE, avec autorisation).
+    */
+    ('FlareKuro','Cai','Luc','lcai@****ris8.com','4163099815407851'),
+    ('Axel','N***tsa','Parche****nguetsa@iut.univ-paris8.com','3891850631920190'),
+    ('Antoine','Chen','Antoine','achen@****is8.com','4230032303900845'),
+
 
 INSERT INTO WeJeux.Multi(Titre, Descriptif, NB_Extension) VALUES
     ('Marvel Rivals','FPS à la 3ème personne en équipe de 5 sur le thème de Marvel','2'),
